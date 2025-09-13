@@ -37,11 +37,18 @@ All colors MUST be HSL.
     --ring: 262 83% 58%;
 
     /* Learning Platform Design Tokens */
-    --learning-gradient: linear-gradient(135deg, hsl(262 83% 58%), hsl(252 100% 67%));
-    --success-gradient: linear-gradient(135deg, hsl(142 76% 36%), hsl(162 63% 41%));
-    --progress-glow: 0 0 20px hsl(262 83% 58% / 0.3);
-    --card-shadow: 0 4px 20px hsl(262 83% 58% / 0.08);
+    --learning-gradient: linear-gradient(135deg, hsl(262 83% 58%), hsl(252 100% 67%), hsl(280 100% 70%));
+    --success-gradient: linear-gradient(135deg, hsl(142 76% 36%), hsl(162 63% 41%), hsl(172 70% 45%));
+    --accent-gradient: linear-gradient(135deg, hsl(320 100% 60%), hsl(340 100% 65%));
+    --hero-gradient: linear-gradient(135deg, hsl(262 83% 58% / 0.1), hsl(252 100% 67% / 0.05));
+    --glass-effect: rgba(255, 255, 255, 0.1);
+    --progress-glow: 0 0 30px hsl(262 83% 58% / 0.4);
+    --card-shadow: 0 8px 32px hsl(262 83% 58% / 0.12);
+    --card-shadow-hover: 0 12px 48px hsl(262 83% 58% / 0.18);
+    --glow-primary: 0 0 40px hsl(262 83% 58% / 0.3);
+    --glow-success: 0 0 40px hsl(142 76% 36% / 0.3);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 0.5rem;
 

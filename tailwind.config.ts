@@ -16,13 +16,46 @@ export default {
       backgroundImage: {
         'learning-gradient': 'var(--learning-gradient)',
         'success-gradient': 'var(--success-gradient)',
+        'accent-gradient': 'var(--accent-gradient)',
+        'hero-gradient': 'var(--hero-gradient)',
       },
       boxShadow: {
         'progress-glow': 'var(--progress-glow)',
         'card-elevated': 'var(--card-shadow)',
+        'card-hover': 'var(--card-shadow-hover)',
+        'glow-primary': 'var(--glow-primary)',
+        'glow-success': 'var(--glow-success)',
+      },
+      backdropBlur: {
+        'glass': '10px',
       },
       transitionTimingFunction: {
         'smooth': 'var(--transition-smooth)',
+        'bounce': 'var(--transition-bounce)',
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.6s ease-out',
+        'slide-up': 'slideUp 0.6s ease-out',
+        'scale-in': 'scaleIn 0.4s ease-out',
+        'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        slideUp: {
+          '0%': { opacity: '0', transform: 'translateY(40px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        scaleIn: {
+          '0%': { opacity: '0', transform: 'scale(0.95)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
+        },
+        pulseGlow: {
+          '0%, 100%': { boxShadow: 'var(--progress-glow)' },
+          '50%': { boxShadow: 'var(--glow-primary)' },
+        },
       },
       colors: {
         border: "hsl(var(--border))",
