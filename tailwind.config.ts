@@ -13,6 +13,17 @@ export default {
       },
     },
     extend: {
+      backgroundImage: {
+        'learning-gradient': 'var(--learning-gradient)',
+        'success-gradient': 'var(--success-gradient)',
+      },
+      boxShadow: {
+        'progress-glow': 'var(--progress-glow)',
+        'card-elevated': 'var(--card-shadow)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
